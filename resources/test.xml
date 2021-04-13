@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<users>
+    <user email="www.baidu.com">
+        <name>张三</name>
+        <age>18</age>
+        <sex>男</sex>
+    </user>
+</users>

